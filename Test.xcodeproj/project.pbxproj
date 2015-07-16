@@ -14,6 +14,7 @@
 		2560D8411B4671790076202F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2560D8401B4671790076202F /* CoreGraphics.framework */; };
 		2560D8431B4671800076202F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2560D8421B4671800076202F /* UIKit.framework */; };
 		2560D8451B4671860076202F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2560D8441B4671860076202F /* Foundation.framework */; };
+		2565376C1B57AFCE00F77D7B /* CHMyShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2565376B1B57AFCE00F77D7B /* CHMyShopViewController.m */; };
 		25B8C7381B4BC1C7007BEDE3 /* Test.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B8C7371B4BC1C7007BEDE3 /* Test.strings */; };
 		25CDA7C21B37A14700F0960E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CDA7C11B37A14700F0960E /* main.m */; };
 		25CDA7C51B37A14700F0960E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CDA7C41B37A14700F0960E /* AppDelegate.m */; };
@@ -49,6 +50,8 @@
 		2560D8401B4671790076202F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2560D8421B4671800076202F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2560D8441B4671860076202F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2565376A1B57AFCE00F77D7B /* CHMyShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHMyShopViewController.h; path = ../CHMyShopViewController.h; sourceTree = "<group>"; };
+		2565376B1B57AFCE00F77D7B /* CHMyShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHMyShopViewController.m; path = ../CHMyShopViewController.m; sourceTree = "<group>"; };
 		25B8C7371B4BC1C7007BEDE3 /* Test.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Test.strings; sourceTree = "<group>"; };
 		25CDA7BC1B37A14700F0960E /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CDA7C01B37A14700F0960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				2560D83A1B466F4D0076202F /* JYGraphPoint.m */,
 				25EFF9341B4A160F00387DAB /* CHTCell.h */,
 				25EFF9351B4A160F00387DAB /* CHTCell.m */,
+				2565376A1B57AFCE00F77D7B /* CHMyShopViewController.h */,
+				2565376B1B57AFCE00F77D7B /* CHMyShopViewController.m */,
 				25CDA7C31B37A14700F0960E /* AppDelegate.h */,
 				25CDA7C41B37A14700F0960E /* AppDelegate.m */,
 				25CDA7C61B37A14700F0960E /* ViewController.h */,
@@ -277,6 +282,7 @@
 				25EFF9361B4A160F00387DAB /* CHTCell.m in Sources */,
 				2560D83F1B466FA30076202F /* CHWeatherViewController.m in Sources */,
 				2560D83C1B466F4D0076202F /* JYGraphPoint.m in Sources */,
+				2565376C1B57AFCE00F77D7B /* CHMyShopViewController.m in Sources */,
 				251D969C1B4BD09A00DE4F64 /* JYGraphView.m in Sources */,
 				25CDA7C21B37A14700F0960E /* main.m in Sources */,
 			);

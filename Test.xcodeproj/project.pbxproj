@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251D969C1B4BD09A00DE4F64 /* JYGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D969B1B4BD09A00DE4F64 /* JYGraphView.m */; };
+		25607BB31B43CAEE007B744A /* CHScrollTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25607BB21B43CAEE007B744A /* CHScrollTopViewController.m */; };
+		2560D83C1B466F4D0076202F /* JYGraphPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560D83A1B466F4D0076202F /* JYGraphPoint.m */; };
+		2560D83F1B466FA30076202F /* CHWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560D83E1B466FA30076202F /* CHWeatherViewController.m */; };
+		2560D8411B4671790076202F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2560D8401B4671790076202F /* CoreGraphics.framework */; };
+		2560D8431B4671800076202F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2560D8421B4671800076202F /* UIKit.framework */; };
+		2560D8451B4671860076202F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2560D8441B4671860076202F /* Foundation.framework */; };
+		25B8C7381B4BC1C7007BEDE3 /* Test.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B8C7371B4BC1C7007BEDE3 /* Test.strings */; };
 		25CDA7C21B37A14700F0960E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CDA7C11B37A14700F0960E /* main.m */; };
 		25CDA7C51B37A14700F0960E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CDA7C41B37A14700F0960E /* AppDelegate.m */; };
 		25CDA7C81B37A14700F0960E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CDA7C71B37A14700F0960E /* ViewController.m */; };
@@ -14,6 +22,9 @@
 		25CDA7CD1B37A14700F0960E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CDA7CC1B37A14700F0960E /* Images.xcassets */; };
 		25CDA7D01B37A14700F0960E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CDA7CE1B37A14700F0960E /* LaunchScreen.xib */; };
 		25CDA7DC1B37A14700F0960E /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CDA7DB1B37A14700F0960E /* TestTests.m */; };
+		25CFE0DE1B562A3B00124102 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CFE0DD1B562A3B00124102 /* BaiduMapAPI.framework */; };
+		25EFF9331B4A15C300387DAB /* CHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFF9321B4A15C300387DAB /* CHTableViewController.m */; };
+		25EFF9361B4A160F00387DAB /* CHTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFF9351B4A160F00387DAB /* CHTCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251D969A1B4BD09A00DE4F64 /* JYGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGraphView.h; sourceTree = "<group>"; };
+		251D969B1B4BD09A00DE4F64 /* JYGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGraphView.m; sourceTree = "<group>"; };
+		25607BB11B43CAEE007B744A /* CHScrollTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHScrollTopViewController.h; sourceTree = "<group>"; };
+		25607BB21B43CAEE007B744A /* CHScrollTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHScrollTopViewController.m; sourceTree = "<group>"; };
+		2560D8391B466F4D0076202F /* JYGraphPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYGraphPoint.h; sourceTree = "<group>"; };
+		2560D83A1B466F4D0076202F /* JYGraphPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYGraphPoint.m; sourceTree = "<group>"; };
+		2560D83D1B466FA30076202F /* CHWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWeatherViewController.h; sourceTree = "<group>"; };
+		2560D83E1B466FA30076202F /* CHWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWeatherViewController.m; sourceTree = "<group>"; };
+		2560D8401B4671790076202F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2560D8421B4671800076202F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2560D8441B4671860076202F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25B8C7371B4BC1C7007BEDE3 /* Test.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Test.strings; sourceTree = "<group>"; };
 		25CDA7BC1B37A14700F0960E /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CDA7C01B37A14700F0960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25CDA7C11B37A14700F0960E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +63,11 @@
 		25CDA7D51B37A14700F0960E /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CDA7DA1B37A14700F0960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25CDA7DB1B37A14700F0960E /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		25CFE0DD1B562A3B00124102 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI.framework; path = ../../Downloads/BaiduMap_IOSSDK_v2.7.0_All/BaiduMap_IOSSDK_v2.7.0_Sample/BaiduMapAPI.framework; sourceTree = "<group>"; };
+		25EFF9311B4A15C300387DAB /* CHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTableViewController.h; sourceTree = "<group>"; };
+		25EFF9321B4A15C300387DAB /* CHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTableViewController.m; sourceTree = "<group>"; };
+		25EFF9341B4A160F00387DAB /* CHTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCell.h; sourceTree = "<group>"; };
+		25EFF9351B4A160F00387DAB /* CHTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25CFE0DE1B562A3B00124102 /* BaiduMapAPI.framework in Frameworks */,
+				2560D8451B4671860076202F /* Foundation.framework in Frameworks */,
+				2560D8431B4671800076202F /* UIKit.framework in Frameworks */,
+				2560D8411B4671790076202F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,10 @@
 		25CDA7B31B37A14700F0960E = {
 			isa = PBXGroup;
 			children = (
+				25CFE0DD1B562A3B00124102 /* BaiduMapAPI.framework */,
+				2560D8441B4671860076202F /* Foundation.framework */,
+				2560D8421B4671800076202F /* UIKit.framework */,
+				2560D8401B4671790076202F /* CoreGraphics.framework */,
 				25CDA7BE1B37A14700F0960E /* Test */,
 				25CDA7D81B37A14700F0960E /* TestTests */,
 				25CDA7BD1B37A14700F0960E /* Products */,
@@ -81,10 +117,22 @@
 		25CDA7BE1B37A14700F0960E /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				251D969A1B4BD09A00DE4F64 /* JYGraphView.h */,
+				251D969B1B4BD09A00DE4F64 /* JYGraphView.m */,
+				2560D8391B466F4D0076202F /* JYGraphPoint.h */,
+				2560D83A1B466F4D0076202F /* JYGraphPoint.m */,
+				25EFF9341B4A160F00387DAB /* CHTCell.h */,
+				25EFF9351B4A160F00387DAB /* CHTCell.m */,
 				25CDA7C31B37A14700F0960E /* AppDelegate.h */,
 				25CDA7C41B37A14700F0960E /* AppDelegate.m */,
 				25CDA7C61B37A14700F0960E /* ViewController.h */,
 				25CDA7C71B37A14700F0960E /* ViewController.m */,
+				25607BB11B43CAEE007B744A /* CHScrollTopViewController.h */,
+				25607BB21B43CAEE007B744A /* CHScrollTopViewController.m */,
+				2560D83D1B466FA30076202F /* CHWeatherViewController.h */,
+				2560D83E1B466FA30076202F /* CHWeatherViewController.m */,
+				25EFF9311B4A15C300387DAB /* CHTableViewController.h */,
+				25EFF9321B4A15C300387DAB /* CHTableViewController.m */,
 				25CDA7C91B37A14700F0960E /* Main.storyboard */,
 				25CDA7CC1B37A14700F0960E /* Images.xcassets */,
 				25CDA7CE1B37A14700F0960E /* LaunchScreen.xib */,
@@ -98,6 +146,7 @@
 			children = (
 				25CDA7C01B37A14700F0960E /* Info.plist */,
 				25CDA7C11B37A14700F0960E /* main.m */,
+				25B8C7371B4BC1C7007BEDE3 /* Test.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,6 +217,7 @@
 				TargetAttributes = {
 					25CDA7BB1B37A14700F0960E = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = M53WX843AR;
 					};
 					25CDA7D41B37A14700F0960E = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -199,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B8C7381B4BC1C7007BEDE3 /* Test.strings in Resources */,
 				25CDA7CB1B37A14700F0960E /* Main.storyboard in Resources */,
 				25CDA7D01B37A14700F0960E /* LaunchScreen.xib in Resources */,
 				25CDA7CD1B37A14700F0960E /* Images.xcassets in Resources */,
@@ -221,6 +272,12 @@
 			files = (
 				25CDA7C81B37A14700F0960E /* ViewController.m in Sources */,
 				25CDA7C51B37A14700F0960E /* AppDelegate.m in Sources */,
+				25607BB31B43CAEE007B744A /* CHScrollTopViewController.m in Sources */,
+				25EFF9331B4A15C300387DAB /* CHTableViewController.m in Sources */,
+				25EFF9361B4A160F00387DAB /* CHTCell.m in Sources */,
+				2560D83F1B466FA30076202F /* CHWeatherViewController.m in Sources */,
+				2560D83C1B466F4D0076202F /* JYGraphPoint.m in Sources */,
+				251D969C1B4BD09A00DE4F64 /* JYGraphView.m in Sources */,
 				25CDA7C21B37A14700F0960E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +406,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jianxun Zhang (YMXXC4A6R9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jianxun Zhang (YMXXC4A6R9)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jiangchenyi/Downloads/BaiduMap_IOSSDK_v2.7.0_All/BaiduMap_IOSSDK_v2.7.0_Sample,
+				);
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3889c04e-dee9-4ae9-9263-32c001df5f3a";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,9 +425,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/jiangchenyi/Downloads/BaiduMap_IOSSDK_v2.7.0_All/BaiduMap_IOSSDK_v2.7.0_Sample,
+				);
 				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3889c04e-dee9-4ae9-9263-32c001df5f3a";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,6 +492,7 @@
 				25CDA7E11B37A14700F0960E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25CDA7E21B37A14700F0960E /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +501,7 @@
 				25CDA7E41B37A14700F0960E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

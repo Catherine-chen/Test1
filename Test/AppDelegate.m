@@ -24,7 +24,7 @@
                                              selector:@selector(userDidTakeScreenshot:)
                                                  name:UIApplicationUserDidTakeScreenshotNotification object:nil];
     
-    NSLog(@"%@",self.window);
+    NSLog(@"%@",self.window.superview);
     return YES;
 }
 
